@@ -132,6 +132,8 @@ LegacyFramework.PlayerFunctions.GetHungerValue()
 LegacyFramework.PlayerFunctions.GetThirstValue()
 ```
 
+<hr style="border-radius: 50%; margin: 0 25px;">
+
 
 # Server Events
 
@@ -149,10 +151,11 @@ RegisterNetEvent("LegacyFramework:OnServerPlayerSpawned", function()
     print('spawned server side', _source)
 end)
 -- Retrive Society Data
+- societyName = string or boolean
 TriggerEvent("LegacyFramework:GetSocietyFounds", societyName, function(data)
     print(json.encode(data)) -- return all data society name/founds/shared
 end)
-societyName = string or boolean
+
 ```
 
 # Client Events
