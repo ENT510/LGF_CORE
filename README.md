@@ -66,4 +66,68 @@ LegacyFramework.SvUtils.SetGroup(playerId, Group)
 LegacyFramework.SvPlayerFunctions.DeletePlayerChar(playerId)
 ```
 
+# Client Functions
 
+
+```lua
+-- Return All Player Data
+LegacyFramework.PlayerFunctions.GetClientData()
+-- Create Vehicle Client Side
+LegacyFramework.VehicleFunctions.CreateVehicle(modelHash, position, heading)
+-- Create Animation with Params
+LegacyFramework.Utils.PlayAnimation(animationParams)
+-- Delete Vehicle at Radius
+LegacyFramework.VehicleFunctions.DeleteVehiclesNearby(radius)
+-- Return Closest vehicle
+LegacyFramework.VehicleFunctions.GetClosestVehicle(playerPed, maxDistance)
+-- Create Object
+LegacyFramework.Utils.CreateObject(modelHash, posX, posY, posZ, heading)
+-- Teleport Enmtity
+LegacyFramework.Utils.TeleportCoords(ped, x, y, z, heading)
+-- Return Client Id 
+LegacyFramework.PlayerFunctions.GetIdPlayer()
+-- Return Player Name (steam)
+LegacyFramework.PlayerFunctions.GetPlayerName()
+-- Return Player Healt
+LegacyFramework.PlayerFunctions.GetPlayerHealth(ped)
+-- Return Player Stamina
+LegacyFramework.PlayerFunctions.GetPlayerStamina()
+-- Return Player Oxygen
+LegacyFramework.PlayerFunctions.GetPlayerOxygen()
+-- Return Player Armour
+LegacyFramework.PlayerFunctions.GetPlayerArmour(ped)
+-- Create Draw Notification 
+LegacyFramework.Utils.DrawNotification(title, message, version)
+-- Enable Fade In 
+LegacyFramework.Utils.FadeIn(duration)
+-- Enable Fade Out
+LegacyFramework.Utils.FadeOut(duration)
+-- Create Ped
+LegacyFramework.Utils.CreatePed(modelPed, x, y, z, heading)
+-- Create KeyBind
+LegacyFramework.Utils.CreateKeyBind(DataBind)
+-- Create Draw Marker
+LegacyFramework.Utils.CreateDrawMarker(parameters)
+-- Create Zones
+LegacyFramework.Utils.CreateZone(zoneData)
+ -- Remove Zone
+LegacyFramework.Utils.RemoveZone(zoneID)
+-- Return Vehicle Prop 
+LegacyFramework.VehicleFunctions.GetVehicleProps(vehicle)
+-- Set Vehicle Props 
+LegacyFramework.VehicleFunctions.SetVehicleProps(vehicle, props, propValueCustom)
+-- Enable ProgressBars [dependency LGF_ProgressBar]
+LegacyFramework.Utils.ProgressBar(color, duration, label)
+-- Create Notification
+LegacyFramework.Utils.Notify(icon, colorIcon, message, title, tipo, position, bgColor, duration)
+-- Set healt At Player
+LegacyFramework.PlayerFunctions.SetPlayerHealth(health)
+-- Set Hunger At Player
+LegacyFramework.PlayerFunctions.SetHunger(value)
+-- Set Thirst At Player
+LegacyFramework.PlayerFunctions.SetThirst(value)
+-- Get Player Hunger
+LegacyFramework.PlayerFunctions.GetHungerValue()
+-- Get Player Thirst
+LegacyFramework.PlayerFunctions.GetThirstValue()
+```
