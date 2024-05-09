@@ -1,5 +1,6 @@
 
-## Server Functions
+# Server Functions
+
 -- Set Player Money At Bank Account
 LegacyFramework.SvPlayerFunctions.SetPlayerMoneyBank(playerId, amount)
 -- Set Player Money Cash
