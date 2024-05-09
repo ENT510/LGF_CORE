@@ -64,6 +64,35 @@ or you can Initialize the Framework in your main script To use the Legacy Framew
 LegacyFramework = exports["LegacyFramework"]:ReturnFramework() -- Import Framework
 ```
 
+# Shared Functions
+
+
+```lua
+-- Dump a specific Table
+function LegacyFramework.sharedUtils.DumpTable(...)
+-- Example: 
+local Table = {
+    dato1 = 'ciao',
+    dato2 = 'ciao rimasto'
+}
+
+print(LegacyFramework.sharedUtils.DumpTable(Table))
+
+-- Using A timeOut
+LegacyFramework.sharedUtils.Timeout = function(options)
+-- Example
+LegacyFramework.sharedUtils.Timeout({
+    Duration = 5,  -- Timeout in Seconds
+    Data = function()  -- Function for args
+        print("Hi, 5 seconds have passed")
+        -- Your Logic function
+    end,
+})
+
+```lua
+
+
+
 # Server Functions
 
 
