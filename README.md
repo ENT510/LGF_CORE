@@ -11,7 +11,7 @@ LGF CORE is a reliable companion for developers on FiveM, offering simple yet po
 
 - **Essential Utilities:** LegacyFramework provides a set of indispensable functions to manage crucial aspects of the game, such as economy, player groups, and permissions.
 
-- **Ease of Use:** Thanks to detailed and understandable documentation, the framework is accessible even to less experienced developers, allowing them to quickly start creating custom scripts.
+- **Ease of Use:** Thanks to detailed and understandable [documentation](https://legacy-script.gitbook.io/lgf-framework), the framework is accessible even to less experienced developers, allowing them to quickly start creating custom scripts.
 
 - **Flexibility:** With the ability to work with external dependencies, LegacyFramework allows developers to easily integrate additional resources into their projects, expanding functionality and creative possibilities.
 
