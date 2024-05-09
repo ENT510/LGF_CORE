@@ -1,5 +1,6 @@
-[![discord](https://img.shields.io/badge/Join-Discord-orange?logo=discord&logoColor=white)](https://discord.gg/legacyscripts)
-![Discord](https://img.shields.io/discord/878552968626833685?style=flat&label=Online%20Users)
+[![discord](https://img.shields.io/badge/Join-Script%20Discord-orange?logo=discord&logoColor=white)](https://discord.gg/legacyscripts)
+[![discord](https://img.shields.io/badge/Join-Framework%20Discord-orange?logo=discord&logoColor=white)](https://discord.gg/J9b32ZNpDu)
+
 
 
 # LGF CORE 
