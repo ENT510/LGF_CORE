@@ -1,19 +1,21 @@
 # LGF CORE 
 
-```
-LGF CORE is a reliable companion for developers on FiveM, offering simple yet powerful tools for creating unique gaming experiences. With a humble and intuitive approach, this framework makes it easy to work with external dependencies and provides clear documentation to simplify learning and usage.
+LGF CORE IS A RELIABLE COMPANION FOR DEVELOPERS ON FIVEM, OFFERING SIMPLE YET POWERFUL TOOLS FOR CREATING UNIQUE GAMING EXPERIENCES. WITH A HUMBLE AND INTUITIVE APPROACH, THIS FRAMEWORK MAKES IT EASY TO WORK WITH EXTERNAL DEPENDENCIES AND PROVIDES CLEAR DOCUMENTATION TO SIMPLIFY LEARNING AND USAGE.
 
-## Features 🛠️
+## FEATURES 🛠️
 
-- **Essential Utilities:** LegacyFramework provides a set of indispensable functions to manage crucial aspects of the game, such as economy, player groups, and permissions.
+- **ESSENTIAL UTILITIES:** LEGACYFRAMEWORK PROVIDES A SET OF INDISPENSABLE FUNCTIONS TO MANAGE CRUCIAL ASPECTS OF THE GAME, SUCH AS ECONOMY, PLAYER GROUPS, AND PERMISSIONS.
 
-- **Ease of Use:** Thanks to detailed and understandable documentation, the framework is accessible even to less experienced developers, allowing them to quickly start creating custom scripts.
+- **EASE OF USE:** THANKS TO DETAILED AND UNDERSTANDABLE DOCUMENTATION, THE FRAMEWORK IS ACCESSIBLE EVEN TO LESS EXPERIENCED DEVELOPERS, ALLOWING THEM TO QUICKLY START CREATING CUSTOM SCRIPTS.
 
-- **Flexibility:** With the ability to work with external dependencies, LegacyFramework allows developers to easily integrate additional resources into their projects, expanding functionality and creative possibilities.
+- **FLEXIBILITY:** WITH THE ABILITY TO WORK WITH EXTERNAL DEPENDENCIES, LEGACYFRAMEWORK ALLOWS DEVELOPERS TO EASILY INTEGRATE ADDITIONAL RESOURCES INTO THEIR PROJECTS, EXPANDING FUNCTIONALITY AND CREATIVE POSSIBILITIES.
 
-In short, LegacyFramework is designed to streamline the development process on FiveM, offering developers a simple and flexible tool to create engaging gaming experiences.
-```
+IN SHORT, LEGACYFRAMEWORK IS DESIGNED TO STREAMLINE THE DEVELOPMENT PROCESS ON FIVEM, OFFERING DEVELOPERS A SIMPLE AND FLEXIBLE TOOL TO CREATE ENGAGING GAMING EXPERIENCES.
 
+- [x] IMPLEMENT A NEW FEATURE
+- [x] OPTIMIZE RESOURCE LOADING
+- [x] DEBUG SCRIPT ERRORS
+- [x] DEBUG SCRIPT ERRORS
 <hr style="border-radius: 50%; margin: 0 25px;">
 
 # Server Functions
