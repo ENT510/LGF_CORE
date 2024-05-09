@@ -71,7 +71,7 @@ LegacyFramework = exports["LegacyFramework"]:ReturnFramework() -- Import Framewo
 
 ```lua
 -- Dump a specific Table
-function LegacyFramework.sharedUtils.DumpTable(...)
+LegacyFramework.sharedUtils.DumpTable(...)
 -- Example: 
 local Table = {
     dato1 = 'ciao',
