@@ -131,3 +131,16 @@ LegacyFramework.PlayerFunctions.GetHungerValue()
 -- Get Player Thirst
 LegacyFramework.PlayerFunctions.GetThirstValue()
 ```
+
+
+# Client Events
+```lua
+-- on player Logout
+AddEventHandler('LegacyFramework:onPlayerLogout',)
+-- Retrive Society Data
+    TriggerEvent("LegacyFramework:GetSocietyFounds", societyName, function(data)
+        print(json.encode(data)) -- return all data society name/founds/shared
+    end)
+societyName = string or boolean
+```
+
