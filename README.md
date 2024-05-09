@@ -1,6 +1,6 @@
 
 # Server Functions
-
+```lua
 -- Set Player Money At Bank Account
 LegacyFramework.SvPlayerFunctions.SetPlayerMoneyBank(playerId, amount)
 -- Set Player Money Cash
@@ -47,3 +47,6 @@ LegacyFramework.SvUtils.SetJob(playerId, job, Grade)
 LegacyFramework.SvUtils.SetGroup(playerId, Group)
 -- Delete Player Char
 LegacyFramework.SvPlayerFunctions.DeletePlayerChar(playerId)
+```
+
+
