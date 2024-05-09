@@ -1,5 +1,5 @@
-[![discord](https://img.shields.io/badge/Join-Script%20Discord-orange?logo=discord&logoColor=white)](https://discord.gg/legacyscripts)
-[![discord](https://img.shields.io/badge/Join-Framework%20Discord-orange?logo=discord&logoColor=white)](https://discord.gg/J9b32ZNpDu)
+[![discord](https://img.shields.io/badge/Join-Legacy%20Scripts-orange?logo=discord&logoColor=white)](https://discord.gg/legacyscripts)
+[![discord](https://img.shields.io/badge/Join-LGF%20Core-orange?logo=discord&logoColor=white)](https://discord.gg/J9b32ZNpDu)
 
 
 
