@@ -11,8 +11,12 @@ LegacyFramework is a reliable companion for developers on FiveM, offering simple
 - **Flexibility:** With the ability to work with external dependencies, LegacyFramework allows developers to easily integrate additional resources into their projects, expanding functionality and creative possibilities.
 
 In short, LegacyFramework is designed to streamline the development process on FiveM, offering developers a simple and flexible tool to create engaging gaming experiences.
+
 <hr style="border-radius: 50%; margin: 0 25px;">
+
 # Server Functions
+
+
 ```lua
 -- Set Player Money At Bank Account
 LegacyFramework.SvPlayerFunctions.SetPlayerMoneyBank(playerId, amount)
