@@ -133,14 +133,46 @@ LegacyFramework.PlayerFunctions.GetThirstValue()
 ```
 
 
-# Client Events
+# Server Events
+
+
 ```lua
 -- on player Logout
-AddEventHandler('LegacyFramework:onPlayerLogout',)
+RegisterServerEvent('LegacyFramework:onPlayerLogout')
+AddEventHandler('LegacyFramework:onPlayerLogout', function()
+    local _source = source
+    print('player in logout', _source)
+end)
+-- On Server Spawn
+RegisterNetEvent("LegacyFramework:OnServerPlayerSpawned", function()
+    local _source = source
+    print('spawned server side', _source)
+end)
 -- Retrive Society Data
-    TriggerEvent("LegacyFramework:GetSocietyFounds", societyName, function(data)
-        print(json.encode(data)) -- return all data society name/founds/shared
-    end)
+TriggerEvent("LegacyFramework:GetSocietyFounds", societyName, function(data)
+    print(json.encode(data)) -- return all data society name/founds/shared
+end)
 societyName = string or boolean
+```
+
+# Client Events
+
+
+
+```lua
+-- on player Logout client
+RegisterNetEvent('LegacyFramework:onPlayerLogout')
+AddEventHandler('LegacyFramework:onPlayerLogout', function()
+    local _source = source
+    print('Player In Logout', _source)
+end)
+-- On Player Spawned Client
+AddEventHandler("LegacyFramework:OnPlayerSpawned", function()
+    LocalPlayer.state.isLoggedIn = true -- example with statebag
+end)
+-- On Player Logout Client
+AddEventHandler('LegacyFramework:onPlayerLogout', function()
+    LocalPlayer.state.isLoggedIn = false -- example with statebag
+end)
 ```
 
