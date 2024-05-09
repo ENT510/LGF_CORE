@@ -64,7 +64,9 @@ or you can Initialize the Framework in your main script To use the Legacy Framew
 LegacyFramework = exports["LegacyFramework"]:ReturnFramework() -- Import Framework
 ```
 
+
 # Shared Functions
+
 
 
 ```lua
@@ -89,8 +91,7 @@ LegacyFramework.sharedUtils.Timeout({
     end,
 })
 
-```lua
-
+```
 
 
 # Server Functions
