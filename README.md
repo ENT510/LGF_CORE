@@ -145,11 +145,13 @@ AddEventHandler('LegacyFramework:onPlayerLogout', function()
     local _source = source
     print('player in logout', _source)
 end)
+
 -- On Server Spawn
 RegisterNetEvent("LegacyFramework:OnServerPlayerSpawned", function()
     local _source = source
     print('spawned server side', _source)
 end)
+
 -- Retrive Society Data
 - societyName = string or boolean
 TriggerEvent("LegacyFramework:GetSocietyFounds", societyName, function(data)
@@ -169,10 +171,12 @@ AddEventHandler('LegacyFramework:onPlayerLogout', function()
     local _source = source
     print('Player In Logout', _source)
 end)
+
 -- On Player Spawned Client
 AddEventHandler("LegacyFramework:OnPlayerSpawned", function()
     LocalPlayer.state.isLoggedIn = true -- example with statebag
 end)
+
 -- On Player Logout Client
 AddEventHandler('LegacyFramework:onPlayerLogout', function()
     LocalPlayer.state.isLoggedIn = false -- example with statebag
