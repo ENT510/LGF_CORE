@@ -60,6 +60,9 @@ server_scripts{
 ```
 or you can Initialize the Framework in your main script To use the Legacy Framework in your project, directly using the export function as shown below, or import it as described in the previous step. This example demonstrates direct usage:
 
+```lua
+LegacyFramework = exports["LegacyFramework"]:ReturnFramework() -- Import Framework
+```
 
 # Server Functions
 
