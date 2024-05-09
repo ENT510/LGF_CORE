@@ -23,6 +23,19 @@ LGF CORE IS A RELIABLE COMPANION FOR DEVELOPERS ON FIVEM, OFFERING SIMPLE YET PO
 
 # CORE
 
+By invoking this export, you integrate the features of the Legacy Framework into your project, allowing you to take advantage of its various features for server-side player operations, utility functions, vehicle operations, and more.
+
+```lua
+LegacyFramework = exports["LegacyFramework"]:ReturnFramework() -- Import Framework
+```
+
+## Installation Guide for Legacy Framework
+
+To correctly install and utilize the Legacy Framework in your project, follow these steps:
+
+Import the Framework into Your fxmanifest.lua Resource
+
+Add the following line to your manifest file:
 
 ```lua
 fx_version 'adamant'
@@ -45,7 +58,7 @@ server_scripts{
 }
 
 ```
-
+or you can Initialize the Framework in your main script To use the Legacy Framework in your project, directly using the export function as shown below, or import it as described in the previous step. This example demonstrates direct usage:
 
 
 # Server Functions
