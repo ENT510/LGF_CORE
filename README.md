@@ -1,6 +1,6 @@
 # LGF CORE 
 
-```cfg
+`code
 LGF CORE is a reliable companion for developers on FiveM, offering simple yet powerful tools for creating unique gaming experiences. With a humble and intuitive approach, this framework makes it easy to work with external dependencies and provides clear documentation to simplify learning and usage.
 
 ## Features 🛠️
@@ -12,10 +12,8 @@ LGF CORE is a reliable companion for developers on FiveM, offering simple yet po
 - **Flexibility:** With the ability to work with external dependencies, LegacyFramework allows developers to easily integrate additional resources into their projects, expanding functionality and creative possibilities.
 
 In short, LegacyFramework is designed to streamline the development process on FiveM, offering developers a simple and flexible tool to create engaging gaming experiences.
-```
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+`
+
 <hr style="border-radius: 50%; margin: 0 25px;">
 
 # Server Functions
