@@ -4,6 +4,8 @@
 
 # LGF CORE
 
+![lgf-letter-logo-design-on-black-background-lgf-creative-initials-letter-logo-concept-lgf-letter-design-vector](https://github.com/ENT510/LGF_CORE/assets/145626625/3acaa01f-01ef-4e5f-b98e-5c09d3a7dc41)
+
 LGF CORE is a reliable companion for developers on FiveM, offering simple yet powerful tools for creating unique gaming experiences. With a humble and intuitive approach, this framework makes it easy to work with external dependencies and provides clear documentation to simplify learning and usage.
 
 ## Features
