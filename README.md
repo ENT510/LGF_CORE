@@ -241,7 +241,9 @@ RegisterNetEvent("LegacyFramework:OnServerPlayerSpawned", function()
 end)
 
 -- Retrieves data for the specified society.
----@param societyName string|boolean The name of the society to retrieve data or the boolean with society name
+---@param societyName string|boolean 
+-- The name of the society to retrieve data or the boolean with society name
+
 TriggerEvent("LegacyFramework:GetSocietyFounds", societyName, function(data)
     print(json.encode(data)) -- return all data society name/founds/shared
 end)
