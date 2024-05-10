@@ -275,7 +275,8 @@ end)
 
 # Server Exports
 
-## LGF_Society required as a dependency to be able to use exports and interact with company systems
+> [!IMPORTANT]
+> LGF_Society required as a dependency to be able to use exports and interact with company systems
 
 
 ```lua
@@ -302,14 +303,8 @@ exports.LGF_Society:UpdateSocietyFounds(societyName, additionalFounds)
 exports.LGF_Society:RemoveSocietyFounds(societyName, additionalFounds)
 ```
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
 
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
