@@ -89,7 +89,7 @@ local Table = {
 print(LegacyFramework.sharedUtils.DumpTable(Table))
 
 -- Using A timeOut
-LegacyFramework.sharedUtils.Timeout = function(options)
+LegacyFramework.sharedUtils.Timeout(options)
 -- Example
 LegacyFramework.sharedUtils.Timeout({
     Duration = 5,  -- Timeout in Seconds
