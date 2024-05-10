@@ -159,6 +159,8 @@ LegacyFramework.SvPlayerFunctions.SetPlayerMoneyCash(playerId, amount)
 LegacyFramework.SvPlayerFunctions.GetPlayerMoneyCash(src)
 -- Get Player Money Account Bank
 LegacyFramework.SvPlayerFunctions.GetPlayerMoneyBank(src)
+-- Remove Player Cash
+LegacyFramework.SvPlayerFunctions.RemovePlayerMoneyCash(playerId, amount)
 -- Get society Data
 LegacyFramework.SvPlayerFunctions.GetSocietyFounds(societyName)
 -- Update Society Founds
