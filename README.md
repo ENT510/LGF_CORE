@@ -258,7 +258,7 @@ end)
 -- on player Logout client
 RegisterNetEvent('LegacyFramework:onPlayerLogout')
 AddEventHandler('LegacyFramework:onPlayerLogout', function()
-
+   -- your logic here
 end)
 
 -- On Player Spawned Client
