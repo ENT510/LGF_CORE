@@ -28,6 +28,41 @@ LGF CORE is a reliable companion for developers on FiveM, offering simple yet po
 
 <hr style="border-radius: 50%; margin: 0 25px;">
 
+# SQL TABLE USERS
+
+The LGF CORE Provider will automatically execute the user table in your database. Below you can find it at your convenience
+
+
+
+```sql
+CREATE DATABASE IF NOT EXISTS `legacyframework` 
+USE `legacyframework`;
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `charName` longtext DEFAULT NULL,
+  `firstName` longtext DEFAULT NULL,
+  `lastName` longtext DEFAULT NULL,
+  `sex` longtext DEFAULT NULL,
+  `dob` varchar(20) DEFAULT NULL,
+  `height` decimal(5,2) DEFAULT NULL,
+  `skin` longtext DEFAULT NULL,
+  `moneyAccounts` longtext DEFAULT NULL,
+  `playerGroup` longtext DEFAULT NULL,
+  `inventory` longtext DEFAULT NULL,
+  `nameJob` longtext DEFAULT NULL,
+  `gradeJob` longtext DEFAULT NULL,
+  `is_dead` tinyint(1) DEFAULT NULL,
+  `license` longtext DEFAULT NULL,
+  `lastcoords` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`lastcoords`)),
+  `status` longtext DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=126 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+```
+
+
 
 # CORE
 
@@ -303,11 +338,3 @@ exports.LGF_Society:UpdateSocietyFounds(societyName, additionalFounds)
 exports.LGF_Society:RemoveSocietyFounds(societyName, additionalFounds)
 ```
 
-
-
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
