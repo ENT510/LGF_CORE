@@ -275,6 +275,7 @@ end)
 
 # Server Exports
 
+## LGF_Society required as a dependency to be able to use exports and interact with company systems
 
 
 ```lua
