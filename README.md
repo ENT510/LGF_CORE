@@ -272,3 +272,33 @@ AddEventHandler('LegacyFramework:onPlayerLogout', function()
 end)
 ```
 
+
+# Server Exports
+
+
+
+```lua
+-- Retrieve Society Data By Export
+---@param societyName string|boolean 
+-- The name of the society to retrieve data or the boolean with society name
+
+exports.LGF_Society:GetSocietyFounds(societyName)
+
+
+-- Update Society Founds
+---@param societyName string|boolean 
+---@param additionalFounds number|boolean 
+-- (societyName) The name of the society to retrieve data or the boolean with society name (additionalFounds) The amount of money to put into the company
+
+exports.LGF_Society:UpdateSocietyFounds(societyName, additionalFounds)
+
+
+-- Remove Society Founds
+---@param societyName string|boolean 
+---@param additionalFounds number|boolean 
+-- (societyName) The name of the society to retrieve data or the boolean with society name (additionalFounds) The amount of money to put into the company
+
+exports.LGF_Society:RemoveSocietyFounds(societyName, additionalFounds)
+```
+
+
