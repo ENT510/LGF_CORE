@@ -260,7 +260,7 @@ LegacyFramework.Utils.AdvancedNotify({params}) -- same params for LegacyFramewor
 -- Set healt At Player
 LegacyFramework.PlayerFunctions.SetPlayerHealth(health)
 -- Get Status Player (Thirst / Hunger)
--- LegacyFramework.PlayerFunctions.GetStatus()
+ LegacyFramework.PlayerFunctions.GetStatus()
 -- Set Hunger At Player
 LegacyFramework.PlayerFunctions.SetHunger(value)
 -- Set Thirst At Player
