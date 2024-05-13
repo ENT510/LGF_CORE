@@ -259,6 +259,8 @@ LegacyFramework.Utils.Notify(icon, colorIcon, message, title, position, bgColor,
 LegacyFramework.Utils.AdvancedNotify({params}) -- same params for LegacyFramework.Utils.Notify but via Table
 -- Set healt At Player
 LegacyFramework.PlayerFunctions.SetPlayerHealth(health)
+-- Set Status
+LegacyFramework.PlayerFunctions.SetStatus(status, value)
 -- Get Status Player (Thirst / Hunger)
  LegacyFramework.PlayerFunctions.GetStatus()
 -- Set Hunger At Player
