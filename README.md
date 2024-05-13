@@ -254,7 +254,9 @@ LegacyFramework.VehicleFunctions.SetVehicleProps(vehicle, props, propValueCustom
 -- Enable ProgressBars [dependency LGF_ProgressBar]
 LegacyFramework.Utils.ProgressBar(color, duration, label)
 -- Create Notification
-LegacyFramework.Utils.Notify(icon, colorIcon, message, title, tipo, position, bgColor, duration)
+LegacyFramework.Utils.Notify(icon, colorIcon, message, title, position, bgColor, duration)
+-- Create Advanced Notification with Params
+LegacyFramework.Utils.AdvancedNotify({params}) -- same params for LegacyFramework.Utils.Notify but via Table
 -- Set healt At Player
 LegacyFramework.PlayerFunctions.SetPlayerHealth(health)
 -- Set Hunger At Player
