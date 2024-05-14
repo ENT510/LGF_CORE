@@ -48,9 +48,7 @@ end)
 -- This event occurs on the client side when a player logs out.
 RegisterNetEvent('LegacyFramework:onPlayerLogout')
 AddEventHandler('LegacyFramework:onPlayerLogout', function()
-    local _source = source
-    print('Player In Logout', _source)
-
+-- your logic
 end)
 
 -- This event occurs on the client side when a player is spawned.
