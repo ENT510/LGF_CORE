@@ -207,6 +207,8 @@ LegacyFramework.SvPlayerFunctions.DeletePlayerChar(playerId)
 ```lua
 -- Return All Player Data
 LegacyFramework.PlayerFunctions.GetClientData()
+-- Return Player Char Loaded
+LegacyFramework.PlayerFunctions.PlayerLoaded()
 -- Create Vehicle Client Side
 LegacyFramework.VehicleFunctions.CreateVehicle(modelHash, position, heading)
 -- Create Animation with Params
@@ -323,6 +325,13 @@ end)
 AddEventHandler('LegacyFramework:onPlayerLogout', function()
     LocalPlayer.state.isLoggedIn = false -- example with statebag
 end)
+
+-- return Player Loaded
+RegisterNetEvent('LegacyFramework:PlayerLoaded')
+AddEventHandler('LegacyFramework:PlayerLoaded', function()
+    print('Player Loaded')
+end)
+
 ```
 
 
